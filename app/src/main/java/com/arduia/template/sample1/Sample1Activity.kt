@@ -9,7 +9,6 @@ import com.arduia.template.sample1.framework.AppConfiguration
  class Sample1Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setTheme(R.style.SampleTemplate1)
         setContentView(R.layout.activity_main)
         inject()
     }
