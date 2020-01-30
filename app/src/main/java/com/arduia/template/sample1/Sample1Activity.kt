@@ -1,9 +1,7 @@
 package com.arduia.template.sample1
 
-import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import com.arduia.template.sample1.def.DefaultMainConfig
 import com.arduia.template.sample1.def.DefaultTemplateContext
 import com.arduia.template.sample1.framework.AppConfiguration
@@ -11,7 +9,7 @@ import com.arduia.template.sample1.framework.AppConfiguration
  class Sample1Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setTheme(R.style.AppTheme)
+        setTheme(R.style.SampleTemplate1)
         setContentView(R.layout.activity_main)
         inject()
     }
